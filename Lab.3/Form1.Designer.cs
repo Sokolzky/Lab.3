@@ -105,7 +105,6 @@
             confirmButton.TabIndex = 7;
             confirmButton.Text = "Policz";
             confirmButton.UseVisualStyleBackColor = true;
-            confirmButton.Click += confirmButton_Click;
             // 
             // Form1
             // 
