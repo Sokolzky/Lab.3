@@ -34,6 +34,8 @@
             percentageOfSpipritLabel = new Label();
             quatityOfDishesTB = new TextBox();
             quantityOfDishesLabel = new Label();
+            resultTB = new TextBox();
+            confirmButton = new Button();
             SuspendLayout();
             // 
             // dishSizeLabel
@@ -51,6 +53,7 @@
             dishSizeTB.Name = "dishSizeTB";
             dishSizeTB.Size = new Size(100, 23);
             dishSizeTB.TabIndex = 1;
+            dishSizeTB.TextChanged += dishSizeTB_TextChanged;
             // 
             // persentageOfSpiritTB
             // 
@@ -58,6 +61,7 @@
             persentageOfSpiritTB.Name = "persentageOfSpiritTB";
             persentageOfSpiritTB.Size = new Size(100, 23);
             persentageOfSpiritTB.TabIndex = 3;
+            persentageOfSpiritTB.TextChanged += persentageOfSpiritTB_TextChanged;
             // 
             // percentageOfSpipritLabel
             // 
@@ -74,6 +78,7 @@
             quatityOfDishesTB.Name = "quatityOfDishesTB";
             quatityOfDishesTB.Size = new Size(100, 23);
             quatityOfDishesTB.TabIndex = 5;
+            quatityOfDishesTB.TextChanged += quatityOfDishesTB_TextChanged;
             // 
             // quantityOfDishesLabel
             // 
@@ -84,11 +89,31 @@
             quantityOfDishesLabel.TabIndex = 4;
             quantityOfDishesLabel.Text = "Ilość naczyń";
             // 
+            // resultTB
+            // 
+            resultTB.Location = new Point(110, 280);
+            resultTB.Name = "resultTB";
+            resultTB.Size = new Size(281, 23);
+            resultTB.TabIndex = 6;
+            resultTB.TextChanged += resultTB_TextChanged;
+            // 
+            // confirmButton
+            // 
+            confirmButton.Location = new Point(18, 279);
+            confirmButton.Name = "confirmButton";
+            confirmButton.Size = new Size(75, 23);
+            confirmButton.TabIndex = 7;
+            confirmButton.Text = "Policz";
+            confirmButton.UseVisualStyleBackColor = true;
+            confirmButton.Click += confirmButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(confirmButton);
+            Controls.Add(resultTB);
             Controls.Add(quatityOfDishesTB);
             Controls.Add(quantityOfDishesLabel);
             Controls.Add(persentageOfSpiritTB);
@@ -109,5 +134,7 @@
         private Label percentageOfSpipritLabel;
         private TextBox quatityOfDishesTB;
         private Label quantityOfDishesLabel;
+        private TextBox resultTB;
+        private Button confirmButton;
     }
 }
