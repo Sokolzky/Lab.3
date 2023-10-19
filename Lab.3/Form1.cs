@@ -5,9 +5,7 @@ namespace Lab._3
         public Form1()
         {
             InitializeComponent();
-            double.TryParse(dishSizeTB.Text, out double size); 
-            double.TryParse(persentageOfSpiritTB.Text, out double percentage); 
-            double.TryParse(quatityOfDishesTB.Text, out double quantity); 
+           
         }
 
         private void dishSizeTB_TextChanged(object sender, EventArgs e)
@@ -32,7 +30,13 @@ namespace Lab._3
 
         private void confirmButton_Click(object sender, EventArgs e)
         {
+            double.TryParse(dishSizeTB.Text, out double size);
+            double.TryParse(persentageOfSpiritTB.Text, out double percentage);
+            double.TryParse(quatityOfDishesTB.Text, out double quantity);
+            double result;
+            result = size * (percentage / 100) * quantity;
 
+            resultTB.Text = "iloœæ czystego spirytusu " + result;
 
         }
 
