@@ -30,7 +30,7 @@ namespace Lab._3
 
         private void confirmButton_Click(object sender, EventArgs e)
         {
-    
+
 
         }
 

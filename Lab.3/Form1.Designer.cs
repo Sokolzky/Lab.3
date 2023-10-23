@@ -41,7 +41,7 @@
             // dishSizeLabel
             // 
             dishSizeLabel.AutoSize = true;
-            dishSizeLabel.Location = new Point(18, 43);
+            dishSizeLabel.Location = new Point(12, 9);
             dishSizeLabel.Name = "dishSizeLabel";
             dishSizeLabel.Size = new Size(103, 15);
             dishSizeLabel.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // dishSizeTB
             // 
-            dishSizeTB.Location = new Point(127, 40);
+            dishSizeTB.Location = new Point(121, 6);
             dishSizeTB.Name = "dishSizeTB";
             dishSizeTB.Size = new Size(100, 23);
             dishSizeTB.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // persentageOfSpiritTB
             // 
-            persentageOfSpiritTB.Location = new Point(202, 114);
+            persentageOfSpiritTB.Location = new Point(196, 46);
             persentageOfSpiritTB.Name = "persentageOfSpiritTB";
             persentageOfSpiritTB.Size = new Size(100, 23);
             persentageOfSpiritTB.TabIndex = 3;
@@ -66,7 +66,7 @@
             // percentageOfSpipritLabel
             // 
             percentageOfSpipritLabel.AutoSize = true;
-            percentageOfSpipritLabel.Location = new Point(18, 117);
+            percentageOfSpipritLabel.Location = new Point(12, 49);
             percentageOfSpipritLabel.Name = "percentageOfSpipritLabel";
             percentageOfSpipritLabel.Size = new Size(178, 15);
             percentageOfSpipritLabel.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // quatityOfDishesTB
             // 
-            quatityOfDishesTB.Location = new Point(96, 192);
+            quatityOfDishesTB.Location = new Point(89, 88);
             quatityOfDishesTB.Name = "quatityOfDishesTB";
             quatityOfDishesTB.Size = new Size(100, 23);
             quatityOfDishesTB.TabIndex = 5;
@@ -83,7 +83,7 @@
             // quantityOfDishesLabel
             // 
             quantityOfDishesLabel.AutoSize = true;
-            quantityOfDishesLabel.Location = new Point(18, 195);
+            quantityOfDishesLabel.Location = new Point(12, 91);
             quantityOfDishesLabel.Name = "quantityOfDishesLabel";
             quantityOfDishesLabel.Size = new Size(71, 15);
             quantityOfDishesLabel.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             // resultTB
             // 
-            resultTB.Location = new Point(110, 280);
+            resultTB.Location = new Point(93, 136);
             resultTB.Name = "resultTB";
             resultTB.Size = new Size(281, 23);
             resultTB.TabIndex = 6;
@@ -99,7 +99,7 @@
             // 
             // confirmButton
             // 
-            confirmButton.Location = new Point(18, 279);
+            confirmButton.Location = new Point(12, 135);
             confirmButton.Name = "confirmButton";
             confirmButton.Size = new Size(75, 23);
             confirmButton.TabIndex = 7;
@@ -111,7 +111,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(407, 190);
             Controls.Add(confirmButton);
             Controls.Add(resultTB);
             Controls.Add(quatityOfDishesTB);
