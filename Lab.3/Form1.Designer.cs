@@ -43,13 +43,13 @@
             dishSizeLabel.AutoSize = true;
             dishSizeLabel.Location = new Point(12, 9);
             dishSizeLabel.Name = "dishSizeLabel";
-            dishSizeLabel.Size = new Size(103, 15);
+            dishSizeLabel.Size = new Size(151, 15);
             dishSizeLabel.TabIndex = 0;
-            dishSizeLabel.Text = "Wielkość naczynia";
+            dishSizeLabel.Text = "Wielkość naczynia w litrach";
             // 
             // dishSizeTB
             // 
-            dishSizeTB.Location = new Point(121, 6);
+            dishSizeTB.Location = new Point(169, 6);
             dishSizeTB.Name = "dishSizeTB";
             dishSizeTB.Size = new Size(100, 23);
             dishSizeTB.TabIndex = 1;
