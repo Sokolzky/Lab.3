@@ -50,7 +50,7 @@ namespace Lab._3
             double result = size * (percentage / 100) * quantity;
 
             resultTB.Clear();
-            resultTB.Text = String.Format("iloœæ czystego spirytusu {0:0.00} L", result);
+            resultTB.Text = String.Format("iloœæ czystego spirytusu {0:0.0000} L", result);
         }
     }
 }
