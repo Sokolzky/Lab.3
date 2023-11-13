@@ -1,4 +1,9 @@
 namespace Lab._3
+/*
+ * I don't idea what is wrong. 
+ * Possible, that computer in room has older version Visual Studio.
+ * Program on my computer run fine
+ */
 {
     public partial class Form1 : Form
     {
